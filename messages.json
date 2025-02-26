@@ -32,20 +32,24 @@
 			"description": "Explains why there is no general channel.",
 			"title": "No general channel",
 			"text": "There is no general channel in this server. The moderation team does not have time to moderate a general or off-topic channel, nor is it relevant to the server itself. Please read the rules and follow the link to PluralHub there if you are looking for a server for socialization."
-		},
-		{
-			"friendlyName": "Sorting options",
-			"category": "rf",
-			"names": [
-				"sorting",
-				"sort",
-				"ordering"
-			],
-			"description": "Explains sorting options are planned",
-			"title": "Sorting members",
-			"text": "The option to sort members and custom fronts by various things, such as creation date or recent fronters has been suggested before. A feature to add ways to sort is planned, but not any specifics on how it would work."
+		}
+	],
+		[
+			{
+				"friendlyName": "Sorting options",
+				"category": "rf",
+				"names": [
+					"sorting",
+					"sort",
+					"ordering"
+				],
+				"description": "Explains sorting options are planned",
+				"title": "Sorting members",
+				"text": "The option to sort members and custom fronts by various things, such as creation date or recent fronters has been suggested before. A feature to add ways to sort is planned, but not any specifics on how it would work."
 
-		},
+			}
+	],
+	[
 		{
 			"friendlyName": "Widgets",
 			"category": "rf",
@@ -55,7 +59,9 @@
 			"description": "Explains widgets are planned.",
 			"title": "Widgets",
 			"text": "Widgets for the app have been suggested before. They are planned, but not a high priority."
-		},
+		}
+	],
+		[
 		{
 			"friendlyName": "PluralKit help",
 			"category": "support",
@@ -70,7 +76,9 @@
 			"description": "Redirects user to PK support",
 			"title": "PluralKit Support Questions",
 			"text": "SimplyPlural and PluralKit are not the same, and are not made by the same developers. Please redirect all PluralKit support questions to their support server instead: https://discord.gg/PczBt78"
-		},
+		}
+	]
+		[
 		{
 			"friendlyName": "ETA questions",
 			"category": "support",
@@ -86,6 +94,8 @@
 			"title": "ETAs",
 			"text": "There are no estimated times or release dates for any upcoming features or updates. The devs are currently one system, and SimplyPlural is not their only project, so due to this they cannot guarantee any feature or update will release at a given time. However, patrons do get sneak peeks into upcoming updates!"
 		},
+	]
+	 [
 		{
 			"friendlyName": "Slow connections",
 			"category": "support",
@@ -99,21 +109,6 @@
 			"description": "Explains why parts of the app may load slowly",
 			"title": "Slow connections/loading times",
 			"text": "Sometimes, especially during busy times of day for the app, connecting to the servers to log in to the app, view your friends, or access other online features may be slow or impossible. Multiple factors, including your distance from the app's servers, or your own internet connection, may make it more difficult for your app to reach the servers, even if they are currently online. Please be patient, and try again later."
-		},
-		{
-			"friendlyName": "Slow notifications",
-			"category": "support",
-			"names": [
-				"slow-notifications",
-				"slow-notification",
-				"slownotifications",
-				"slownotification",
-				"slownotifs",
-				"slownotif"
-			],
-			"description": "Explains why notifications sometimes arrive slowly",
-			"title": "Slow notifications",
-			"text": "When a notification arrives and when they are sent are two different things. Depending on your phone model, phone brand, connection stability notifications may arrive delayed or not at all. To confirm the notifications are being sent out at the correct time go to settings -> account settings -> notification history. The times listed on these notifications is when they were sent."
 		},
 		{
 			"friendlyName": "How to add friends",
@@ -250,7 +245,7 @@
 			],
 			"description": "Explains how to allow your friends to see your members",
 			"title": "See members",
-			"text": "If your friends cannot see your members, you have to go into the friend's profile, click on the cogwheel on the top right and press \"They can see your shared members\", this will allow them to see your public members or your members marked as \"Shown to Trusted Friends\", if they are marked as a \"Trusted friend\". "
+			"text": "If your friends cannot see your members, you need to give them access to with privacy buckets. If your friend is given the same privacy bucket as a member, they will see that member. They will not be able to see members in buckets they do not have access to."
 		},
 		{
 			"friendlyName": "Syncing members to and from PluralKit",
@@ -496,6 +491,43 @@
 			"text": "If you are logging in with socials (google, apple), and you wish to convert your account to a normal password account, please request a password reset. This will send you a link to reset your password which will set the password for your account and unlink you from social logins. This means you will need to login with email and password from there on."
 		},
 		{
+			"friendlyName": "Linked images not loading",
+			"category": "support",
+			"names": [
+				"links"
+			],
+			"title": "Linked images not loading",
+			"description": "Explains why linked images may not load",
+			"text": "If your images are not loading, disappearing, etc., please check with your image hosting service. Be aware Discord links do expire after a short amount of time. Simply Plural is not responsible for your images not loading unless you have uploaded them to the app."
+		},
+		{
+			"friendlyName": "Image hosting websites",
+			"category": "support",
+			"names": [
+				"imgwebsite",
+				"imagehosting",
+				"image-hosting"
+			],
+			"title": "Image hosting",
+			"description": "Talks image hosting websites.",
+			"text": "Please share any names and links to image hosting websites privately. We request you do this because in the past, when one website was addressed by name, many users of the website would all begin to use it, and cause it to become slow. \n We do this out of respect for those website owners and their money. Image hosting can be expensive. You can use your search engine of choice to look for image hosting websites that allow hotlinking."
+		},
+		{
+			"friendlyName": "Missing data",
+			"category": "support",
+			"names": [
+				"deleted-data",
+				"deleteddata",
+				"missinginfo",
+				"missing-info"
+				"missingdata",
+				"missing-data"
+			],
+			"title": "Missing data",
+			"description": "Explains why data might not be appearing",
+			"text": "Simply Plural does not and will not delete your data at random. Things not appearing could be for a number of reasons, such as a bad connection, or info not being saved in the first place. Try reloading your app or waiting a while."
+		},
+		{
 			"friendlyName": "Simply Plus",
 			"category": "support",
 			"names": [
@@ -506,30 +538,6 @@
 			"title": "Simply Plus",
 			"description": "Simply Plus",
 			"text": "Simply Plus is the upcoming subscription model for Simply Plural in order to monetarily support the app for the upkeep of the servers. Simply Plus is a cosmetics-only subscription, meaning no functional features will be behind the subscription but only cosmetic, visual enhancing, features will be part of the Subscription. No feature that is currently in the app will be behind subscription, only new certain cosmetic features will be locked behind the subscription. You can read more about it in the announcement here: https://apparyllis.com/avatar-functionality-reversed-decision/\nThere is no current timeline for Simply Plus, however when there's more information to share it will be announced"
-		},
-		{
-			"friendlyName": "Markdown image links",
-			"category": "support",
-			"names": [
-				"mdlinks",
-				"links",
-				"markdownlinks"
-			],
-			"description": "Explains how to use markdown links",
-			"title": "Markdown image links",
-			"text": "To use links in your markdown fields with ![]() you need to use a service that allows hotlinking from external apps. Discord does not support hotlinking from outside the Discord app, using Discord links will cause your images to dissapear soon after. You can browse the internet for services that allow you to host images that can be hotlinked from externally."
-		},
-		{
-			"friendlyName": "Optional settings",
-			"category": "support",
-			"names": [
-				"optional",
-				"optionalsettings",
-				"optionaloptions"
-			],
-			"description": "Explains why features dont always receive optional settings",
-			"title": "Optional settings",
-			"text": "Because Simply Plural is created and maintained by a single developer, there isn't enough time and resources to make everything an optional setting. The developer has to prioritize bug fixing, and occasionally release new features, alongside maintaining the servers."
 		}
 	]
 }
